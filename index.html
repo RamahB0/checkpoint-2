@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ramah's portfolio</title>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Discover my projects, background, and how to contact me.</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Ramah BELMZOUAK, a data engineer with a valuable background passionate about building solutions and adding value. </p>
+    <img src="Screenshot 2025-08-16 at 18.39.07.jpg" alt="A picture of me" width="200">
+  </section>
+
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <li>Project 1 - Building 30min refres pipeline using GCP product </li>
+      <li>Project 2 - Building an RAG AI agent </li>
+      <li>Project 3 - Designing the flow end to end of dashboards in Looker</li>
+    </ul>
+
+
+    <h3>Project Details</h3>
+    <table border="2" cellpadding="10" cellspacing="0">
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Pipeline</td>
+        <td>Using artifact registery and cloud scheduler to to load data in bigquery in periodic time frame.</td>
+      </tr>
+      <tr>
+        <td>AI agent</td>
+        <td>Agent having the ability to translate natural questions into SQL queries, compute and provide answers, additionnally <br> the ability to learn through interactions using Thought-action-observation framework using RAG and re-ranker.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Get a look at my resume ;)</p>
+    <a href="BELMZOUAK_Ramah_2025_eng (2).pdf" download>📄 His resume</a>
+  </section>
+
+ 
+    <section>
+        <h2>Intro Video</h2>
+        <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/NrWO8l2S5uk" 
+          title="YouTube video player" 
+          frameborder="2" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 BELMZOUAK Ramah. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
